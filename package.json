@@ -1,0 +1,22 @@
+{
+  "name": "bluetooth-computer-lock",
+  "version": "1.0.0",
+  "description": "\"Bluetoooth base proximity lock\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HUFGhani/Bluetooth-Computer-Lock.git"
+  },
+  "keywords": [
+    "Bluetooth"
+  ],
+  "author": "Hamza Ghani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HUFGhani/Bluetooth-Computer-Lock/issues"
+  },
+  "homepage": "https://github.com/HUFGhani/Bluetooth-Computer-Lock#readme"
+}
