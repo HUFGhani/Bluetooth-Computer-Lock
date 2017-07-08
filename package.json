@@ -1,14 +1,14 @@
 {
   "name": "bluetooth-computer-lock",
   "version": "1.0.0",
-  "description": "\"Bluetoooth base proximity lock\"",
+  "description": "Bluetoooth base proximity lock",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HUFGhani/Bluetooth-Computer-Lock.git"
+    "url": "https://github.com/HUFGhani/Bluetooth-Computer-Lock.git"
   },
   "keywords": [
     "Bluetooth"
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/HUFGhani/Bluetooth-Computer-Lock/issues"
   },
-  "homepage": "https://github.com/HUFGhani/Bluetooth-Computer-Lock#readme"
+  "homepage": "https://github.com/HUFGhani/Bluetooth-Computer-Lock#readme",
+  "dependencies": {
+    "list-selector-cli": "0.0.3",
+    "noble": "^1.8.1"
+  }
 }
